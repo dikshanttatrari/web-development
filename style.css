@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.div1{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    flex-direction: column;
+    height: 500px;
+    color: white;
+}
+
+.div2{
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div3{
+    margin: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+
+.cat{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
