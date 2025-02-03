@@ -1,36 +1,34 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: cornsilk;
 }
 
-.div1{
-    margin: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: blue;
-    flex-direction: column;
-    height: 500px;
-    color: white;
+.heading1{
+    color: blue;
 }
 
-.div2{
-    margin: 50px;
-    display: flex;
-    justify-content: space-evenly;
+#bglime{
+    background-color: lime;
 }
 
-.div3{
-    margin: 50px;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 800px;
+.unique{
+    color: red;
+    background-color: lime;
 }
 
-.cat{
-    width: 200px;
-    height: 200px;
-    border-radius: 10px;
+.para1{
+    color: red;
+}
+
+.para{
+    font-size: 28px;
+    color: pink;
+}
+
+.terms{
+    color: black;
+    background-color: aqua;
+    text-decoration: none;
+    font-size: 28px;
 }
