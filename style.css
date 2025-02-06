@@ -1,34 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
-    background-color: cornsilk;
+    font-family: "Poppins", sans-serif;
 }
 
-.heading1{
-    color: blue;
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 10px;
 }
 
-#bglime{
-    background-color: lime;
+
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
 }
 
-.unique{
-    color: red;
-    background-color: lime;
+li{
+    margin: 14px;
 }
 
-.para1{
-    color: red;
-}
-
-.para{
-    font-size: 28px;
-    color: pink;
-}
-
-.terms{
+.user-btn{
     color: black;
-    background-color: aqua;
-    text-decoration: none;
-    font-size: 28px;
+    background-color: pink;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.blue{
+    color: rgb(58, 58, 219);
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 100px 0px 100px;
+}
+
+.left p{
+    width: 50ch;
+}
+
+.cta{
+    margin-top: 50px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.right img{
+    margin-top: 100px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .navbar{
+        margin-top: 20px;
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0px 0px 0px;
+    }
+
+    .left{
+        width: 95vw;
+        margin-left: 20px;
+    }
+
+    .left p{
+        width: 30ch;
+    }
+
+    .cta{
+        margin-top: 30px;
+    }
+
+    .right img{
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 1023px){
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hero-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 20px;
+    }
+
+    .left{
+        width: 50vw;
+    }
+
+    .left p{
+        width: 35ch;
+    }
+
 }
