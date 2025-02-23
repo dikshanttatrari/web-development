@@ -1,2 +1,2 @@
 # web-development
-We are web development using HTML, CSS and JS
+We are learning web development using HTML, CSS and JS
